@@ -8,10 +8,6 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
-  
-  def brands.each do |brand|
-    brand.uniq
-  end
 
   def cobble
     self.condition = "new"
