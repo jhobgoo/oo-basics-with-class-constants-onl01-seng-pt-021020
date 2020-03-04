@@ -9,7 +9,8 @@ class Shoe
     BRANDS << brand
   end
 
-  def brands.each do |brand|
+  def unique_brands
+    brands.each do |brand|
     
 
   def cobble
