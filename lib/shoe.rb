@@ -8,8 +8,6 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
-  
-  Shoe::BRANDS.clear
 
   def cobble
     self.condition = "new"
